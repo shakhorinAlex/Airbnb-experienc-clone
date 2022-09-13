@@ -1,0 +1,84 @@
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.rating-wrapper {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.rating {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    margin-right: 2px;
+}
+.rating::before {
+    content: url(../assets/starIcon.svg);
+    margin-right: 2px;
+}
+
+.reviewCount, .country {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+    margin-right: 6px;
+}
+
+.country {
+    position:relative;
+}
+
+.country::before {
+    content: '';
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    top: 40%;
+    border-radius: 50%;
+    background-color: #918E9B;
+    margin-left: -4px;
+}
+
+.card--title, .price {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    margin-bottom: 8px;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    margin-top: auto;
+}
+
+.price-number {
+    font-weight: 600;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 0 6px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 10px;
+}

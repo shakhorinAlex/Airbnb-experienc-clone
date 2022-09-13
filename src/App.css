@@ -1,0 +1,19 @@
+#root {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 21px;
+}
+
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 36px;
+}
