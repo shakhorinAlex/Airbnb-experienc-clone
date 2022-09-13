@@ -22,7 +22,7 @@ export default function Experiences(props) {
           <p className="country">{props.location}</p>
         </div>
         <p className="card--title">{props.title}</p>
-        <p className="price"><span className='price-number'>From ${props.price}</span>/ person</p>
+        <p className="price"><span className='price-number'>From ${props.price}</span> / person</p>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 
 .card {
-    width: 175px;
+    width: 176px;
     font-size: 12px;
     flex: 0 0 auto;
     display: flex;
@@ -55,17 +55,13 @@
 .card--title, .price {
     font-weight: 300;
     font-size: 12px;
-    line-height: 110%;
+    line-height: 120%;
     margin-bottom: 8px;
 }
 
 .card--title {
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.price {
-    margin-top: auto;
 }
 
 .price-number {
