@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](./public/images/screenshot.jpg)
+![](./public/images/screenshot.ppg)
 
 ### Links
 
